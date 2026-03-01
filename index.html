@@ -1,11 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venkata Pavan Teja Bathula | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #222;
+        }
+
+        header,
+        section,
+        footer {
+            padding: 40px 8%;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .hero img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid #ccc;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .project li {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #f5f5f5;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-    I'm Pavan Teja
+
+    <!-- HERO -->
+    <header class="hero">
+        <div>
+            <h1>Venkata Pavan Teja Bathula</h1>
+            <h3>Software Intern @ Zinnia | CSE (AI & ML), JNTUH</h3>
+            <p>
+                Software and AI/ML-focused engineer with hands-on experience in
+                algorithmic trading systems, IoT product development, and real-world
+                automation.
+            </p>
+            <p>📍 Hyderabad, Telangana, India</p>
+        </div>
+
+        <img src="your-photo.jpg" alt="Venkata Pavan Teja Bathula" />
+    </header>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+            <div>
+                <h4>Programming</h4>
+                <ul>
+                    <li>Python (DSA, Automation)</li>
+                    <li>Java (DSA)</li>
+                    <li>C / C++</li>
+                    <li>Pine Script</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>AI / ML</h4>
+                <ul>
+                    <li>Machine Learning Fundamentals</li>
+                    <li>Time-Series Analysis</li>
+                    <li>Backtesting & Strategy Optimization</li>
+                    <li>Market Regime Analysis</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>IoT & Embedded</h4>
+                <ul>
+                    <li>ESP32, Arduino, ATtiny85</li>
+                    <li>MQTT, WiFi, Bluetooth</li>
+                    <li>Sensor Integration</li>
+                    <li>Firmware Development</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Tools & Platforms</h4>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Linux</li>
+                    <li>Camunda</li>
+                    <li>Google Colab</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section>
+        <h2>Experience</h2>
+
+        <h3>Software Intern — Zinnia</h3>
+        <p><strong>Jan 2026 – Present | Hyderabad</strong></p>
+        <ul>
+            <li>Working on production-grade software in an insurance-tech environment.</li>
+            <li>Contributing to scalable backend systems and automation workflows.</li>
+        </ul>
+
+        <h3>IoT Engineer Intern (Product Development) — Techaro Innov Pvt Ltd</h3>
+        <p><strong>Feb 2025 – Jun 2025</strong></p>
+        <ul>
+            <li>Developed IoT-enabled medical and wellness devices.</li>
+            <li>Implemented firmware for ATtiny85-based systems.</li>
+            <li>Handled hardware–software integration and debugging.</li>
+        </ul>
+
+        <h3>Head — Watt’s Guild (Technical Club, JNTUH)</h3>
+        <p><strong>Sep 2024 – Sep 2025</strong></p>
+        <ul>
+            <li>Led technical workshops and hands-on engineering sessions.</li>
+            <li>Mentored students in electronics, IoT, and applied engineering.</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project">
+        <h2>Projects</h2>
+
+        <ul>
+            <li>
+                <h3>Smart Data Extraction Tool</h3>
+                <p>
+                    Automated extraction of structured data from PDFs, images, CSVs,
+                    and spreadsheets, reducing manual processing time significantly.
+                </p>
+            </li>
+
+            <li>
+                <h3>Real-Time Algorithmic Trading System</h3>
+                <p>
+                    Adaptive trading engine with live signal generation, backtesting,
+                    and strategy optimization based on market conditions.
+                </p>
+            </li>
+
+            <li>
+                <h3>Faculty Timetable Management System</h3>
+                <p>
+                    Collision-free timetable generator for academic institutions,
+                    simplifying semester scheduling.
+                </p>
+            </li>
+
+            <li>
+                <h3>QR-Based Attendance System (400+ Users)</h3>
+                <p>
+                    Designed and deployed for JGAM 2023, enabling fast and reliable
+                    participant tracking.
+                </p>
+            </li>
+
+            <li>
+                <h3>ATtiny85-Based Electric Dilator Device</h3>
+                <p>
+                    Embedded system with multiple vibration modes and safety features,
+                    including emergency shutdown and charging-mode suspension.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- RESEARCH -->
+    <section>
+        <h2>Personal Research</h2>
+        <p>
+            Researching intraday algorithmic trading strategies with a focus on signal
+            generation, risk management, and market behavior prediction.
+        </p>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li>Solved 450+ DSA problems on LeetCode; Global Top 19% (Max).</li>
+            <li>3rd Place — Boardroom: Executive Strategy Competition, IIT Hyderabad.</li>
+            <li>Winner — Blind Code @ Quest 2024, JNTUH.</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <footer>
+        <h2>Contact</h2>
+        <ul>
+            <li>📞 Phone: XXXXXXXXXX</li>
+            <li>📧 Email: **********@gmail.com</li>
+            <li>🔗 LinkedIn: <a href="#">linkedin.com/in/your-profile</a></li>
+            <li>💻 LeetCode: <a href="#">leetcode.com/your-profile</a></li>
+        </ul>
+    </footer>
+
 </body>
+
 </html>
